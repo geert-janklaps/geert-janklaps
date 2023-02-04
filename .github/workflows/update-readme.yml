@@ -38,4 +38,7 @@ jobs:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@2.3.0
         with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          REPOSITORY: geert-janklaps/geert-janklaps
+          CREDLY_USER: ${{ secrets.CREDLY_USER }}
           CREDLY_SORT: POPULAR
