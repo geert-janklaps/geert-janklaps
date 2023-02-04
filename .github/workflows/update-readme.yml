@@ -2,7 +2,6 @@ name: Update README
 
 on:
   workflow_dispatch:      # option to run manually
-  push:                   # run on each push
   schedule:
     - cron: "0 0 * * */1" # runs at 0:00 UTC each day
 
