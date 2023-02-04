@@ -22,14 +22,19 @@ Here are some ideas to get you started:
 - Twitter [@geertjanklaps](https://twitter.com/geertjanklaps)
 - LinkedIn [geertjanklaps](https://www.linkedin.com/in/geertjanklaps/)
 
+#### 📖 My latest blog posts
+{{- range rss "https://content.services.sap.com/feed?type=blogpost&author=geert-jan.klaps" 5 }}
+- [{{ .Title }}]({{ .URL }}) ({{ humanize .PublishedAt }})
+{{- end }}
+
+#### 👨‍💻 Repositories I created recently
+{{range recentRepos 5}}
+- [{{.Name}}]({{.URL}}){{ with .Description }} - {{.}}{{ end }}
+{{- end}}
+
 #### 👷 I'm currently working on (aka my most recent contributions)
 {{range recentContributions 5}}
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
-{{- end}}
-
-#### 🚀 Latest releases I contributed to
-{{range recentReleases 5}}
-- [{{.Name}}]({{.URL}}) ([{{.LastRelease.TagName}}]({{.LastRelease.URL}}), {{humanize .LastRelease.PublishedAt}}){{ with .Description }} - {{.}}{{ end }}
 {{- end}}
 
 #### ⭐ Latest repositories I starred
@@ -40,11 +45,6 @@ Here are some ideas to get you started:
 #### 👥 My latest followers
 {{range followers 5}}
 - [{{.Login}}]({{.URL}}) - {{.Name}}
-{{- end}}
-
-#### 👨‍💻 Repositories I created recently
-{{range recentRepos 5}}
-- [{{.Name}}]({{.URL}}){{ with .Description }} - {{.}}{{ end }}
 {{- end}}
 
 
