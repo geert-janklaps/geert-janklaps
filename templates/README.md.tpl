@@ -20,7 +20,9 @@ Here are some ideas to get you started:
 
 #### 📫 How to best reach out: 
 - Twitter [@geertjanklaps](https://twitter.com/geertjanklaps)
+- Mastodon [@geertjanklaps](https://saptodon.org/@geertjanklaps)
 - LinkedIn [geertjanklaps](https://www.linkedin.com/in/geertjanklaps/)
+- SAP Community [geert-jan.klaps](https://people.sap.com/geert-jan.klaps)
 
 #### 📖 My latest blog posts
 {{- range rss "https://content.services.sap.com/feed?type=blogpost&author=geert-jan.klaps" 5 }}
