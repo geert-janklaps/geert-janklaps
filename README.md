@@ -12,7 +12,7 @@
 - SAP Community [geert-jan.klaps](https://people.sap.com/geert-jan.klaps)
 
 #### 📖 My latest blog posts
-- [Access SAP Business Application Studio as a remote from Visual Studio Code](https://blogs.sap.com/?p=1753884) (1 day ago)
+- [Access SAP Business Application Studio as a remote from Visual Studio Code](https://blogs.sap.com/?p=1753884) (2 days ago)
 - [Embracing the low-code / no-code-continuum as a pro-code developer](https://blogs.sap.com/?p=1665373) (4 months ago)
 - [Business Technology Platform solution diagrams and icons taken to the next level](https://blogs.sap.com/?p=1655751) (5 months ago)
 - [SAP Inside Track Belgium 2022](https://blogs.sap.com/2022/06/09/sap-inside-track-belgium-2022/) (10 months ago)
@@ -28,7 +28,7 @@
 
 #### 👷 I'm currently working on (aka my most recent contributions)
 
-- [geert-janklaps/generator-btp-diagram-icons](https://github.com/geert-janklaps/generator-btp-diagram-icons) - Generate SAP Business Technology Platform diagram icons (3 days ago)
+- [geert-janklaps/generator-btp-diagram-icons](https://github.com/geert-janklaps/generator-btp-diagram-icons) - Generate SAP Business Technology Platform diagram icons (4 days ago)
 - [marianfoo/gh-following-to-rss](https://github.com/marianfoo/gh-following-to-rss) - Create a OPML File out of your GitHub Following (4 months ago)
 - [geert-janklaps/cds-launchpad-plugin-demo](https://github.com/geert-janklaps/cds-launchpad-plugin-demo) - cds-launchpad-plugin demo repository (SAP Inside Track / SAP TechEd 2022) (5 months ago)
 - [geert-janklaps/cds-launchpad-plugin](https://github.com/geert-janklaps/cds-launchpad-plugin) - Launchpad Plugin for demo / development / testing SAP CAP-based projects (5 months ago)
